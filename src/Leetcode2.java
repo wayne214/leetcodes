@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * 两数之和
  * */
-public class leetcode2 {
+public class Leetcode2 {
     // leetCode 两数之和
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -19,6 +19,9 @@ public class leetcode2 {
 
 
     public static void main(String[] args){
-        System.out.println("leetCode");
+        Leetcode2 leetcode2 = new Leetcode2();
+        int[] arr = {1,2,3,4};
+        int[] ints = leetcode2.twoSum(arr, 6);
+        System.out.println(ints.length);
     }
 }
