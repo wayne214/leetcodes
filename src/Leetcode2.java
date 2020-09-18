@@ -22,6 +22,7 @@ public class Leetcode2 {
         Leetcode2 leetcode2 = new Leetcode2();
         int[] arr = {1,2,3,4};
         int[] ints = leetcode2.twoSum(arr, 6);
-        System.out.println(ints.length);
+        // 打印数组
+        System.out.println(Arrays.toString(ints));
     }
 }

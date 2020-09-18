@@ -39,6 +39,9 @@ public class leetcode1 {
 
 
     public static void main(String[] args){
-        System.out.println("leetCode");
+        leetcode1 leetcode1 = new leetcode1();
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        List<List<Integer>> lists = leetcode1.threeSum(nums);
+        System.out.println(Arrays.toString(lists.toArray()));
     }
 }
